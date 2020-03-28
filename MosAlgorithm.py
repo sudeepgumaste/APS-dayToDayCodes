@@ -1,3 +1,5 @@
+# calculating sum of ((frequencyOfElement)**2)*element in a given range
+
 from math import sqrt, floor
 
 arr = []
@@ -5,14 +7,6 @@ cnt = []
 BLOCK_SIZE = 0
 currAnswer = 0
 maxElem = float('-inf')
-
-# def compFunction(a, b):
-#     global BLOCK_SIZE
-#     l1 = a[0] // BLOCK_SIZE
-#     l2 = b[0] // BLOCK_SIZE
-#     if l1 != l2:
-#         return a[0] < b[0]
-#     return a[1] < b[1]
 
 def add(x):
     global currAnswer
