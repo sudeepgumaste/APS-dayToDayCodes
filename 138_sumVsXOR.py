@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/sum-vs-xor/problem
+
 def main():
     n = int(input())
     if n==0:
